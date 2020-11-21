@@ -1,0 +1,447 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/seansugrue/Template_Engine_Employee_Summary
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 97
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 16
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 791
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hSeans-MacBook-Pro:Template_Engine_Employee_Summary seansugrue$ "
+  - delay: 2693
+    content: c
+  - delay: 95
+    content: l
+  - delay: 189
+    content: e
+  - delay: 211
+    content: a
+  - delay: 624
+    content: r
+  - delay: 233
+    content: "\r\n"
+  - delay: 8
+    content: "\e[H\e[2JSeans-MacBook-Pro:Template_Engine_Employee_Summary seansugrue$ "
+  - delay: 4302
+    content: 'n'
+  - delay: 145
+    content: o
+  - delay: 303
+    content: d
+  - delay: 294
+    content: e
+  - delay: 1656
+    content: ' '
+  - delay: 1502
+    content: a
+  - delay: 2720
+    content: p
+  - delay: 179
+    content: p
+  - delay: 661
+    content: .
+  - delay: 549
+    content: j
+  - delay: 245
+    content: s
+  - delay: 289
+    content: "\r\n"
+  - delay: 392
+    content: "Let's make your Dream Team!\r\n"
+  - delay: 11
+    content: "\e[32m?\e[39m \e[1mHow many people are in your team?\e[22m\e[0m \e[0m\e[36D\e[36C"
+  - delay: 2009
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many people are in your team?\e[22m\e[0m \e[0m3\e[37D\e[37C"
+  - delay: 826
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mHow many people are in your team?\e[22m\e[0m \e[0m\e[36m3\e[39m\e[37D\e[37C\r\n"
+  - delay: 7
+    content: "\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0m\e[31D\e[31C"
+  - delay: 2075
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mP\e[32D\e[32C"
+  - delay: 512
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPa\e[33D\e[33C"
+  - delay: 131
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPap\e[34D\e[34C"
+  - delay: 151
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa\e[35D\e[35C"
+  - delay: 277
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa \e[36D\e[36C"
+  - delay: 323
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa S\e[37D\e[37C"
+  - delay: 294
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa Se\e[38D\e[38C"
+  - delay: 144
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa Sea\e[39D\e[39C"
+  - delay: 155
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0mPapa Sean\e[40D\e[40C"
+  - delay: 872
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (1)'s name?\e[22m\e[0m \e[0m\e[36mPapa Sean\e[39m\e[40D\e[40C\r\n\e[32m?\e[39m \e[1mWhat is the employee (1)'s id?\e[22m\e[0m \e[0m\e[33D\e[33C"
+  - delay: 2613
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s id?\e[22m\e[0m \e[0mP\e[34D\e[34C"
+  - delay: 989
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s id?\e[22m\e[0m \e[0mPS\e[35D\e[35C"
+  - delay: 745
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s id?\e[22m\e[0m \e[0m\e[36mPS\e[39m\e[35D\e[35C\r\n\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0m\e[36D\e[36C"
+  - delay: 2880
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mp\e[37D\e[37C"
+  - delay: 162
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpa\e[38D\e[38C"
+  - delay: 264
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpap\e[39D\e[39C"
+  - delay: 197
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapa\e[40D\e[40C"
+  - delay: 360
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapas\e[41D\e[41C"
+  - delay: 211
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapase\e[42D\e[42C"
+  - delay: 94
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasea\e[43D\e[43C"
+  - delay: 151
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean\e[44D\e[44C"
+  - delay: 899
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@\e[45D\e[45C"
+  - delay: 904
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@p\e[46D\e[46C"
+  - delay: 151
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@pa\e[47D\e[47C"
+  - delay: 111
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@pap\e[48D\e[48C"
+  - delay: 160
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papa\e[49D\e[49C"
+  - delay: 824
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papas\e[50D\e[50C"
+  - delay: 216
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papase\e[51D\e[51C"
+  - delay: 108
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasea\e[52D\e[52C"
+  - delay: 140
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasean\e[53D\e[53C"
+  - delay: 989
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasean.\e[54D\e[54C"
+  - delay: 253
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasean.c\e[55D\e[55C"
+  - delay: 120
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasean.co\e[56D\e[56C"
+  - delay: 68
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0mpapasean@papasean.com\e[57D\e[57C"
+  - delay: 600
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (1)'s Email?\e[22m\e[0m \e[0m\e[36mpapasean@papasean.com\e[39m\e[57D\e[57C\r\n"
+  - delay: 7
+    content: "\e[?25l\e[32m?\e[39m \e[1mwhat the employee (1)'s title?\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ Engineer\e[39m \r\n  Intern \r\n  Manager \e[10D\e[10C"
+  - delay: 1844
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (1)'s title?\e[22m\e[0m \e[0m\r\n  Engineer \r\n\e[36m❯ Intern\e[39m \r\n  Manager \e[10D\e[10C"
+  - delay: 485
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mwhat the employee (1)'s title?\e[22m\e[0m \e[0m\r\n  Engineer \r\n  Intern \r\n\e[36m❯ Manager\e[39m \e[10D\e[10C"
+  - delay: 842
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (1)'s title?\e[22m\e[0m \e[0m\e[36mManager\e[39m\e[40D\e[40C\r\n\e[?25h\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m\e[40D\e[40C"
+  - delay: 5217
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m1\e[41D\e[41C"
+  - delay: 241
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m12\e[42D\e[42C"
+  - delay: 234
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123\e[43D\e[43C"
+  - delay: 578
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-\e[44D\e[44C"
+  - delay: 798
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-4\e[45D\e[45C"
+  - delay: 242
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-45\e[46D\e[46C"
+  - delay: 311
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456\e[47D\e[47C"
+  - delay: 278
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456-\e[48D\e[48C"
+  - delay: 329
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456-7\e[49D\e[49C"
+  - delay: 356
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456-78\e[50D\e[50C"
+  - delay: 303
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456-789\e[51D\e[51C"
+  - delay: 269
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m123-456-7890\e[52D\e[52C"
+  - delay: 1148
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Manager's Office Number?\e[22m\e[0m \e[0m\e[36m123-456-7890\e[39m\e[52D\e[52C\r\n"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0m\e[31D\e[31C"
+  - delay: 5873
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJ\e[32D\e[32C"
+  - delay: 301
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJo\e[33D\e[33C"
+  - delay: 318
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJoh\e[34D\e[34C"
+  - delay: 221
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJohn\e[35D\e[35C"
+  - delay: 696
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJohn \e[36D\e[36C"
+  - delay: 384
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJohn D\e[37D\e[37C"
+  - delay: 203
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJohn Do\e[38D\e[38C"
+  - delay: 151
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0mJohn Doe\e[39D\e[39C"
+  - delay: 1337
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (2)'s name?\e[22m\e[0m \e[0m\e[36mJohn Doe\e[39m\e[39D\e[39C\r\n\e[32m?\e[39m \e[1mWhat is the employee (2)'s id?\e[22m\e[0m \e[0m\e[33D\e[33C"
+  - delay: 1906
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s id?\e[22m\e[0m \e[0mJ\e[34D\e[34C"
+  - delay: 410
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s id?\e[22m\e[0m \e[0mJD\e[35D\e[35C"
+  - delay: 430
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s id?\e[22m\e[0m \e[0m\e[36mJD\e[39m\e[35D\e[35C\r\n\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0m\e[36D\e[36C"
+  - delay: 2454
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mj\e[37D\e[37C"
+  - delay: 138
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd\e[38D\e[38C"
+  - delay: 1117
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@\e[39D\e[39C"
+  - delay: 714
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@j\e[40D\e[40C"
+  - delay: 91
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@jd\e[41D\e[41C"
+  - delay: 746
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@jd.\e[42D\e[42C"
+  - delay: 246
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@jd.c\e[43D\e[43C"
+  - delay: 108
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@jd.co\e[44D\e[44C"
+  - delay: 184
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0mjd@jd.com\e[45D\e[45C"
+  - delay: 463
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (2)'s Email?\e[22m\e[0m \e[0m\e[36mjd@jd.com\e[39m\e[45D\e[45C\r\n\e[?25l\e[32m?\e[39m \e[1mwhat the employee (2)'s title?\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ Engineer\e[39m \r\n  Intern \r\n  Manager \e[10D\e[10C"
+  - delay: 1933
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (2)'s title?\e[22m\e[0m \e[0m\r\n  Engineer \r\n\e[36m❯ Intern\e[39m \r\n  Manager \e[10D\e[10C"
+  - delay: 641
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (2)'s title?\e[22m\e[0m \e[0m\r\n\e[36m❯ Engineer\e[39m \r\n  Intern \r\n  Manager \e[10D\e[10C"
+  - delay: 841
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (2)'s title?\e[22m\e[0m \e[0m\e[36mEngineer\e[39m\e[41D\e[41C\r\n\e[?25h\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m\e[34D\e[34C"
+  - delay: 3945
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0mj\e[35D\e[35C"
+  - delay: 1200
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0mjd\e[36D\e[36C"
+  - delay: 1394
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0mj\e[35D\e[35C"
+  - delay: 233
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m\e[34D\e[34C"
+  - delay: 1850
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m@\e[35D\e[35C"
+  - delay: 855
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m@j\e[36D\e[36C"
+  - delay: 239
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m@jd\e[37D\e[37C"
+  - delay: 664
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is your Engineer's GitHub?\e[22m\e[0m \e[0m\e[36m@jd\e[39m\e[37D\e[37C\r\n"
+  - delay: 5
+    content: "\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0m\e[31D\e[31C"
+  - delay: 8940
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJ\e[32D\e[32C"
+  - delay: 898
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJa\e[33D\e[33C"
+  - delay: 212
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJan\e[34D\e[34C"
+  - delay: 226
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane\e[35D\e[35C"
+  - delay: 3693
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane \e[36D\e[36C"
+  - delay: 1636
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane D\e[37D\e[37C"
+  - delay: 326
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Do\e[38D\e[38C"
+  - delay: 579
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Doe\e[39D\e[39C"
+  - delay: 1989
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Doe-\e[40D\e[40C"
+  - delay: 779
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Doe-D\e[41D\e[41C"
+  - delay: 203
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Doe-Do\e[42D\e[42C"
+  - delay: 149
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0mJane Doe-Doe\e[43D\e[43C"
+  - delay: 1055
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is employee (3)'s name?\e[22m\e[0m \e[0m\e[36mJane Doe-Doe\e[39m\e[43D\e[43C\r\n\e[32m?\e[39m \e[1mWhat is the employee (3)'s id?\e[22m\e[0m \e[0m\e[33D\e[33C"
+  - delay: 1264
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s id?\e[22m\e[0m \e[0mJ\e[34D\e[34C"
+  - delay: 216
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s id?\e[22m\e[0m \e[0mJD\e[35D\e[35C"
+  - delay: 184
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s id?\e[22m\e[0m \e[0mJDD\e[36D\e[36C"
+  - delay: 466
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s id?\e[22m\e[0m \e[0m\e[36mJDD\e[39m\e[36D\e[36C\r\n\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0m\e[36D\e[36C"
+  - delay: 1883
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mj\e[37D\e[37C"
+  - delay: 225
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjd\e[38D\e[38C"
+  - delay: 171
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd\e[39D\e[39C"
+  - delay: 836
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@\e[40D\e[40C"
+  - delay: 456
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@j\e[41D\e[41C"
+  - delay: 316
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jd\e[42D\e[42C"
+  - delay: 165
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jdd\e[43D\e[43C"
+  - delay: 295
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jdd.\e[44D\e[44C"
+  - delay: 194
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jdd.c\e[45D\e[45C"
+  - delay: 107
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jdd.co\e[46D\e[46C"
+  - delay: 121
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0mjdd@jdd.com\e[47D\e[47C"
+  - delay: 321
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat is the employee (3)'s Email?\e[22m\e[0m \e[0m\e[36mjdd@jdd.com\e[39m\e[47D\e[47C\r\n\e[?25l\e[32m?\e[39m \e[1mwhat the employee (3)'s title?\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ Engineer\e[39m \r\n  Intern \r\n  Manager \e[10D\e[10C"
+  - delay: 2596
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (3)'s title?\e[22m\e[0m \e[0m\r\n  Engineer \r\n\e[36m❯ Intern\e[39m \r\n  Manager \e[10D\e[10C"
+  - delay: 722
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mwhat the employee (3)'s title?\e[22m\e[0m \e[0m\e[36mIntern\e[39m\e[39D\e[39C\r\n\e[?25h\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0m\e[40D\e[40C"
+  - delay: 2843
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mM\e[41D\e[41C"
+  - delay: 643
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMS\e[42D\e[42C"
+  - delay: 448
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU\e[43D\e[43C"
+  - delay: 791
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU \e[44D\e[44C"
+  - delay: 459
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU C\e[45D\e[45C"
+  - delay: 330
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Co\e[46D\e[46C"
+  - delay: 179
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Cod\e[47D\e[47C"
+  - delay: 2066
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Codi\e[48D\e[48C"
+  - delay: 160
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Codin\e[49D\e[49C"
+  - delay: 171
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding\e[50D\e[50C"
+  - delay: 162
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding \e[51D\e[51C"
+  - delay: 818
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding B\e[52D\e[52C"
+  - delay: 185
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Bo\e[53D\e[53C"
+  - delay: 889
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Boo\e[54D\e[54C"
+  - delay: 293
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Boot\e[55D\e[55C"
+  - delay: 369
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Bootc\e[56D\e[56C"
+  - delay: 205
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Bootca\e[57D\e[57C"
+  - delay: 160
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Bootcam\e[58D\e[58C"
+  - delay: 192
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0mMSU Coding Bootcamp\e[59D\e[59C"
+  - delay: 987
+    content: "\e[2K\e[G\e[32m?\e[39m \e[1mWhat school is your Intern attending?\e[22m\e[0m \e[0m\e[36mMSU Coding Bootcamp\e[39m\e[59D\e[59C\r\n"
+  - delay: 11
+    content: "Success!\r\n\e[?25h"
+  - delay: 18
+    content: 'Seans-MacBook-Pro:Template_Engine_Employee_Summary seansugrue$ '
+  - delay: 8606
+    content: "logout\r\n"
